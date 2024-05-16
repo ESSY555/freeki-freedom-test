@@ -244,38 +244,22 @@
                 </div>
 
 
-                <div class="py-5 md:py-10">
+                     <div class="py-5 md:py-10">
                     <div class="flex flex-col md:flex-row md:gap-4">
-                        <div class="p-2 space-y-4">
-                            <img src="{{ asset('images/features/noone.png') }}"
-                                class="max-w-[300px] md:max-w-[364px]">
-                            <p class="Collboration-Teams text-[30px]">Collboration Teams </p>
-                            <p class="virtual-project text-[18px] text-[#A6A6A6]">Here you can handle projects together
-                                with team
-                                virtually</p>
+                        <div class="p-2 space-y-4 flex-1">
+                            <img src="images/features/noone.png" class="w-full max-w-[300px] md:max-w-[364px] mx-auto">
+                            <p class="text-[30px] text-center">Collaboration Teams</p>
+                            <p class="text-[18px] text-[#A6A6A6] text-center">Here you can handle projects together with the team virtually</p>
                         </div>
-                        <div class="p-2 space-y-4">
-                            <img src="{{ asset('images/features/notwo.png') }}"
-                                class="max-w-[300px] md:max-w-[364px]">
-
-                            <p class="Collboration-Teams text-[30px]">Cloud Storage</p>
-                            <p class="virtual-project text-[18px] text-[#A6A6A6]">No nedd to worry about storage
-                                because we provide
-                                storage up to
-                                2 TB
-                            </p>
+                        <div class="p-2 space-y-4 flex-1">
+                            <img src="images/features/notwo.png" class="w-full max-w-[300px] md:max-w-[364px] mx-auto">
+                            <p class="text-[30px] text-center">Cloud Storage</p>
+                            <p class="text-[18px] text-[#A6A6A6] text-center">No need to worry about storage because we provide storage up to 2 TB</p>
                         </div>
-                        <div class="p-2 space-y-4">
-                            <img src="{{ asset('images/features/nothree.png') }}"
-                                class="max-w-[300px] md:max-w-[364px]">
-
-                            <p class="Collboration-Teams text-[30px] ">Daily Analytics </p>
-                            <p class="virtual-project text-[18px] text-[#A6A6A6]">We always provide useful informatin
-                                to make it
-                                easier for you
-                                every
-                                day
-                            </p>
+                        <div class="p-2 space-y-4 flex-1">
+                            <img src="images/features/nothree.png" class="w-full max-w-[300px] md:max-w-[364px] mx-auto">
+                            <p class="text-[30px] text-center">Daily Analytics</p>
+                            <p class="text-[18px] text-[#A6A6A6] text-center">We always provide useful information to make it easier for you every day</p>
                         </div>
                     </div>
                 </div>
@@ -482,7 +466,7 @@
 
         {{-- footer --}}
 
-        <div class="bg-[#161C28] py-5 md:py-12 text-white">
+       <div class="bg-[#161C28] py-5 md:py-12 text-white">
             <div class="w-10/12 m-auto">
                 <div class="flex flex-col md:flex-row justify-between space-y-8 md:gap-12">
                     <div class="basis-1/2 space-y-4">
@@ -491,19 +475,20 @@
                             and grow your money or
                             manage
                             anywhere on the planet</p>
-                        <img src="{{ asset('images/Group 212.PNG') }}" class="">
+                        <img src="images/Group 212.PNG" class="">
                         <p class="i-am-very-helped text-[#A6A6A6] text-[18px]">I am very helped by this E-wallet
                             application, my
                             days are very easy to use this application and its very
                             helpful in my life, even I can pay a short time 😍</p>
                         <p class="aria-zinario">_ Aria Zinanrio</p>
-                        <div class="flex flex-row justify-start mt-10 items-center pt-2 gap-2">
-                            <img src="{{ asset('images/Ellipse 54.png') }}" class="img-fluid">
-                            <img src="{{ asset('images/Ellipse 55.png') }}" class="img-fluid">
-                            <img src="{{ asset('images/Ellipse 56.png') }}" class="img-fluid">
-                            <img src="{{ asset('images/Ellipse 57.png') }}" class="img-fluid">
-                            <img src="{{ asset('images/Group 215.png') }}" class="img-fluid">
+                        <div class="grid grid-cols-3 sm:grid-cols-5 gap-2 mt-10 pt-2">
+                            <img src="images/Ellipse 54.png" class="img-fluid">
+                            <img src="images/Ellipse 55.png" class="img-fluid">
+                            <img src="images/Ellipse 56.png" class="img-fluid">
+                            <img src="images/Ellipse 57.png" class="img-fluid">
+                            <img src="images/Group 215.png" class="img-fluid">
                         </div>
+
                     </div>
 
                     <div class="text-light basis-1/2 w-full h-full bg-[#222938] rounded-2xl p-10">
@@ -511,8 +496,7 @@
                             <div class="d-flex justify-content-center mb-3">
                                 <div class="">
                                     <div class="text-center w-full flex flex-row justify-center">
-                                        <img src="{{ asset('images/features/getstarted.png') }}"
-                                            class="h-[86px] w-[72px] text-center">
+                                        <img src="images/features/getstarted.png" class="h-[86px] w-[72px] text-center">
                                     </div>
 
                                     <p class="Get-Started pt-3 text-center text-[30px]">Get Started</p>
@@ -522,15 +506,15 @@
                             <form>
                                 <div class="mb-3 space-y-4">
                                     <label for="inputEmail" class="font-light mb-3">Email address</label>
-                                    <input type="email" class="p-3 rounded-xl w-full"
-                                        placeholder="Enter your email" id="inputEmail" aria-describedby="emailHelp">
+                                    <input type="email" class="p-3 rounded-xl w-full" placeholder="Enter your email"
+                                        id="inputEmail" aria-describedby="emailHelp">
                                 </div>
                                 <div class="mb-5 space-y-4">
                                     <label for="inputMessage" class="font-light mb-3">Message</label>
-                                    <textarea class="p-3 rounded-xl w-full" id="inputMessage" placeholder="What do you say" rows="3"></textarea>
+                                    <textarea class="p-3 rounded-xl w-full" id="inputMessage"
+                                        placeholder="What do you say" rows="3"></textarea>
                                 </div>
-                                <button type="submit"
-                                    class="bg-[#54BD95] text-white py-3 rounded-2xl w-full ">Request
+                                <button type="submit" class="bg-[#54BD95] text-white py-3 rounded-2xl w-full ">Request
                                     Demo</button>
                                 <p class="text-[14px] mt-3 font-light text-end">or Start Free Trial</p>
                             </form>
@@ -539,7 +523,7 @@
                 </div>
 
 
-                <div class="flex flex-col md:flex-row space-y-8 items-end justify-between py-10 ">
+                <div class="flex flex-col md:flex-row space-y-8 md:items-end justify-between py-10 ">
                     <div class="">
                         <p class="Biccas text-[#54BD95] text-[50px]">Biccas</p>
                         <p class="i-am-very-helped pt-4">Get started now try our product</p>
@@ -547,14 +531,13 @@
                             <div class="rounded-full overflow-hidden w-full  border flex flex-row justify-between">
                                 <input type="email" class="p-3 bg-[#161C28] " aria-describedby="emailHelp"
                                     placeholder="Enter your email here">
-                                <img src="{{ asset('images/arrow.png') }}" class="bg-[#54BD95] p-3 rounded-full">
+                                <img src="images/arrow.png" class="bg-[#54BD95] p-3 rounded-full">
                             </div>
                         </div>
 
                     </div>
 
-                    <div
-                        class="flex md: flex-col md:w-content flex-col md:flex-row items-start md:items-end space-y-8 md:gap-8 ">
+                    <div class="flex flex-col md:flex-row md:w-content  items-start md:items-end space-y-8 md:gap-8 ">
                         <div class=" space-y-4 ">
                             <p class="Support text-light">Support</p>
                             <p class="i-am-very-helped">Help centre</p>
